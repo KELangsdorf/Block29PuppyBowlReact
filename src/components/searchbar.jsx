@@ -2,7 +2,7 @@ import React from "react";
 import { useDispatch } from 'react-redux';
 import { setSearchTerm } from '../slice/searchTermSlice';
 
-(/*
+{/*
 const dispatch = useDispatch();: 
 This line is using the useDispatch hook from Redux to get access to the
 dispatch function, which is used to dispatch actions to the Redux store.
@@ -15,7 +15,7 @@ setSearchTerm, and it passes the value of the input field
 (e.target.value) as its payload. This is updating the state in 
 the Redux store with the search term.
 
-*/)
+*/}
 
 
 const SearchBar = () => {
